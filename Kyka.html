@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyka</title>
+    <style>
+        body  {
+            background-color: rgb(255, 255, 255);
+        }
+        button{
+            background-color: rgb(255, 195, 83);
+        width: 100px;
+        height: 30px;}
+        input{background-color: rgb(255, 255, 255) ;
+        height:25px;
+    width: 150px;}
+  
+header{background-color:rgb(255, 195, 83);
+height: 78px;
+} 
+    </style>
+
+</head>
+<header>
+    <h1>My name is Kuandyk</h1>
+    <a id="1" href="https://youtube.com">Youtube</a>
+    <a id="2" href="https://vk.com">Vkontakte</a>
+    
+</header>
+<body>
+    <p>Hi! 
+   
+        Welcome to my first site!
+        i'm 15 y.o
+        im borned in Kazakstan city issyk </p>
+        <button><a id="3" href="https://www.instagram.com">Contact me</a>
+        </button>
+        <h3>My Skills</h3>
+        <ol>
+        <li>I can speak on English</li>
+        <li>Art</li>
+        <li>i know many thinks about math</li>
+        </ol>
+        <script>
+            var name=prompt("Hello! What's your name?")
+    
+            alert("Hello! "+name +" welcome to my site!")
+    
+            var password=prompt("Tell our password.")
+            if (password === "777"){
+                alert("Welcome to my site!")
+            }
+            else{
+                alert("Ops! It's wrong password")
+                var h1 = document.querySelector("h1")
+                h1.innerText = "My name is Kozha"
+
+                var p = document.querySelector("p")
+                p.innerText = "Hi! Welcome to site! I'm 51 y.o im living in Usa"
+
+                var a = document.getElementById("3")
+                a.href = "https://youtube.com"
+
+                var body = document.querySelector("body")
+                body.style.backgroundColor = "green"
+            }
+        </script>
+</body>
+</html>
